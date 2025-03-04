@@ -1,0 +1,61 @@
+body {
+    background-color: #f4f4f4; /* Light gray for readability */
+    color: #333; /* Dark gray for contrast */
+    font-family: Arial, sans-serif;
+}
+
+/* Headings styling */
+h1 {
+    background-color: #4A90E2; /* Soft blue */
+    color: #ffffff; /* White text */
+    padding: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+
+    font-family: "Moon Dance", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 1.8rem; /* Adjusts the size of the subheading */
+    font-weight: bold; /* Makes the text bold */
+    color: #2C3E50; /* Dark blue for better readability */
+    background-color: #F0F0F0; /* Light gray background */
+    padding: 0.5rem 1rem; /* Adds space inside the element */
+    margin: 1rem 0; /* Adds space around the element */
+    border-left: 5px solid #3498DB; /* Adds a blue accent on the left */
+}
+
+/* Paragraph styling */
+p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: 1.5rem;
+    line-height: 1.6;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Link state (unvisited) */
+a:link {
+    color: #FF6347; /* Tomato red for unvisited links */
+    text-decoration: none; /* No underline by default */
+}
+
+/* Visited state (after being clicked) */
+a:visited {
+    color: #8A2BE2; /* Blueviolet for visited links */
+    text-decoration: none; /* No underline */
+}
+
+/* Hover state (when the user hovers over the link) */
+a:hover {
+    color: #32CD32; /* Limegreen for when the user hovers */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Active state (when the user clicks on the link) */
+a:active {
+    color: #FF4500; /* OrangeRed for active links */
+    text-decoration: none; /* No underline on click */
+}
