@@ -1,0 +1,90 @@
+
+/* General Body Styling */
+body {
+    background-color: #f4f4f9; /* Light gray background */
+    margin: 0; /* Removes default margin */
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+    background-color: #333; /* Dark background */
+    color: white; /* White text color */
+    padding: 2rem; /* Adds padding inside the header */
+    text-align: center; /* Centers the text */
+}
+
+/* Header Links Styling */
+header a:link, header a:visited {
+    color: white; /* White link color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+header a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+header a:active {
+    color: #ff4500; /* Orange red color when clicked */
+}
+
+/* Main Content Styling */
+main {
+    border: 3px solid red; /* Red border for the main content */
+    padding: 1.5rem; /* Adds padding inside the main section */
+}
+
+/* Article Styling */
+article {
+    background-color: white; /* White background for articles */
+    border: 1px solid #ccc; /* Light gray border for articles */
+    padding: 1.3rem; /* Padding inside the article */
+    margin: 0.5rem 0 1.5rem 0; /* Margin for spacing between articles */
+    border-radius: 0.8rem; /* Rounded corners */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333; /* Dark background */
+    color: white; /* White text color */
+    text-align: center; /* Centers the text */
+    padding: 1rem; /* Adds padding inside the footer */
+}
+
+/* Link Styling (General) */
+a:link {
+    color: #007bff; /* Blue color for unvisited links */
+}
+
+a:visited {
+    color: #5a5a5a; /* Gray color for visited links */
+}
+
+a:hover {
+    color: #ff6347; /* Tomato color when hovered */
+}
+
+a:active {
+    color: #ff4500; /* Orange red color when clicked */
+}
+
+/* H1 and Footer Text Alignment */
+h1, footer {
+    text-align: center; /* Centers the text for the heading and footer */
+}
+
+/* Navigation Styling */
+nav {
+    display: flex;
+    justify-content: space-between; /* Aligns links on opposite sides */
+    padding: 1rem; /* Adds padding inside the nav */
+}
+
+nav a {
+    color: white; /* White text color for navigation links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+nav a:hover {
+    color: #ff6347; /* Tomato color on hover for nav links */
+}
