@@ -1,0 +1,64 @@
+/* 2.2 — Style h2 */
+h2 {
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  /* 2.3 — Style nav list items */
+  nav li {
+    list-style-type: none;
+    background-color: black;
+    margin: 1rem;
+  }
+  
+  /* 2.3 — Style nav links */
+  nav a {
+    text-decoration: none;
+    color: lightgray;
+    padding: 1.5rem;
+    display: inline-block;
+  }
+  
+  /* 2.4 — Hover effect */
+  nav a:hover {
+    color: palegoldenrod;
+    background-color: black;
+  }
+  
+  /* 2.5 — Make nav horizontal and centered */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 25px;
+    margin: 0;
+  }
+  
+  /* 3 — Style h1 */
+  h1 {
+    text-align: center;
+    color: darkslateblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+  }
+  
+  /* 3 — Style footer */
+  footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  /* Remove space under footer */
+  body {
+    margin: 0;
+    padding: 0;
+  }
