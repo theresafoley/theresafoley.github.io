@@ -1,0 +1,11 @@
+.text-links p a {
+    display: inline-block;
+    color: #444;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0.5em 0;
+  }
+  
+  .text-links p a:hover {
+    color: #b57445;
+  }
