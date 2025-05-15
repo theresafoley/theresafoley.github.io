@@ -183,3 +183,41 @@ nav ul.navigation li a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    background-color: #4a3f35; /* Soft white like layout.css */
+    text-align: center;
+    padding: 1.5rem 1rem;
+    color: #fff; /* Warm brown tone */
+    font-size: 1.6rem; /* Slightly reduced font size */
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #e0ddd2;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+header p {
+    margin-top: 0.3rem;
+    font-size: 1rem;
+    color: #666;
+}

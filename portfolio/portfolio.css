@@ -13,6 +13,7 @@ body {
     padding: 2rem;
 }
 
+
 header {
     background-color: #4a3f35;
     color: #fff;
@@ -119,4 +120,70 @@ header h1 {
     header h1 {
         font-size: 2rem;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header.portfolio-header {
+    background-color: #ffffff;
+    color: #4a3f35;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    border-bottom: 2px solid #e0ddd2;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 0 0 12px 12px;
+}
+
+header.portfolio-header h1 {
+    font-size: 2.3rem;
+    margin: 0.5rem 0;
+    color: #4a3f35;
+}
+
+header.portfolio-header p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 0.2rem;
+}
+
+/* Portfolio Navigation Styling (Matches layout.css) */
+header.portfolio-header .nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+header.portfolio-header .nav-menu li a {
+    color: #4a3f35;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+header.portfolio-header .nav-menu li a:hover {
+    color: #b57445;
+}
+
+header.portfolio-header .nav-menu li a:visited {
+    color: #6c4a32;
+}
+
+header.portfolio-header .nav-menu li a:active {
+    color: #9c3d2b;
 }
