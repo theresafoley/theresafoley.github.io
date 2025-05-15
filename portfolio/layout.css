@@ -1,7 +1,9 @@
 /* Base styles */
 body {
   font-family: 'Georgia', serif;
+  background-image: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png');
   background-color: #f8f5ec; /* soft paper-like */
+  background-repeat: repeat;
   margin: 0;
   padding: 0;
   color: #333;
